@@ -1,0 +1,255 @@
+
+.main-div {
+    height: 100%;
+    background: #dce1e1;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-heading--div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+.main-content--div {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-content-content--div {
+    font-family: 'Assistant', sans-serif;
+    height: 440px;
+    width: 800px;
+    max-width: 1024px;
+    margin-left: 0px;
+    padding: 0px 48px 0px 168px;
+    position: relative;
+    overflow: hidden;
+}
+
+#main-content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -1600px;
+    margin-left: 80px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 3.0rem;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    height: 656px;
+}
+
+.heading-secondary-home {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.anmelden-button--sm {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #0a3237;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #eee;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.anmelden-button--sm:hover {
+    background: #9bb4b9;
+    transition: 0.25s;
+}
+
+.headerDivider {
+    border-left: 2px solid #9bb4b9;
+    height: 280px;
+    margin: 10px 10px;
+}
+
+.main-features--div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-div {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .main-heading--div {
+        height: 20%;
+        margin-bottom: 32px;
+        margin-left: 0px;
+    }
+
+    .main-content-content--div {
+        height: 272px;
+        max-width: 800px;
+        margin-top: 40px;
+        margin-bottom: 48px;
+        margin-left: 64px;
+        margin-right: 64px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 64px;
+        text-align: center;
+        align-self: start;
+        width: auto;
+    }
+
+    .main-content--div {
+        display: flex;
+        margin-top: -24px;
+        margin-bottom: -12px;
+        flex-direction: column;
+        width: auto;
+    }
+
+    #main-content-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 16px;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+        height: 440px;
+    }
+
+    .main-content-image--div {
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
+
+    .headerDivider {
+        display: none;
+    }
+
+    p {
+        margin-top: -8px;
+        padding-top: 0px;
+    }
+
+    .anmelden-button--sm {
+        width: 150px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: #0a3237;
+        border-radius: 16px;
+        font-size: 18px;
+        color: #eee;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 16px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .main-div {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden ;
+    }
+
+    .main-content--div {
+        align-items: center;
+        text-align: center;
+        margin: -64px 240px 0px 240px;
+        padding: 0px 24px 0px 24px;
+        width: 480px;
+        overflow: hidden ;
+    }
+
+    .main-content-content--div {
+        align-items: center;
+        text-align: center;
+        margin: 48px 20px -8px 20px;
+        padding: 20px 20px 20px 20px;
+        width: auto;
+        height: 400px;
+    }
+    
+    .main-heading--div {
+        margin-bottom: 48px;
+        overflow: hidden ;
+    }
+
+    .main-content-image--div {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+        overflow: hidden ;
+    }
+
+    .anmelden-button--sm {
+        width: 150px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: #0a3237;
+        border-radius: 16px;
+        font-size: 18px;
+        color: #eee;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 16px;
+        margin-bottom: 120px;
+    }
+
+    #main-content-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+        padding-top: 32px;
+        padding-left: 16px;
+        height: 320px;
+        overflow: hidden ;
+    }
+
+    .headerDivider {
+        display: none;
+    }
+}

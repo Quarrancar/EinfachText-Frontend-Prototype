@@ -1,0 +1,102 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(51, 51, 51, 0.5);
+}
+
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #0a3237
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .text-field {
+    position: relative;
+    border-bottom: 1px solid #9bb4b9;
+    margin: 30px 0;
+    padding-bottom: 8px;
+    color: #0a3237;
+}
+
+.text-field input {
+    width: 100%;
+    padding: 0px;
+    padding-top: 8px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #0a3237;
+}
+
+.registrierung-button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #0a3237;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.registrierung-button:disabled {
+    color: #eee;
+    opacity: 0.5;
+    transition: 0.25s;
+    cursor: default;
+}
+
+.registrierung-button:hover {
+    color: #eee;
+    opacity: 0.75;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.registrierung-button:hover, button[disabled] {
+    color: #eee;
+    opacity: 0.5;
+    transition: 0.25s;
+    cursor: default;
+}
+
+.error-box {
+    background: #f4dede;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    color: #820918;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.error-text {
+    margin-left: 5%;
+    text-transform: capitalize;
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+
+@media (max-width: 600px) {
+
+}

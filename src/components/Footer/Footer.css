@@ -1,0 +1,25 @@
+.footer {
+    background: #9bb4b9;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+
+.footer-container {
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   z-index: 2;
+}
+
+.footer-text {
+    color: white;
+    font-weight: 700;
+}
+
+.footer-text:hover {
+    color: #333;
+    opacity: 0.75;
+    transition: 0.25s;
+}

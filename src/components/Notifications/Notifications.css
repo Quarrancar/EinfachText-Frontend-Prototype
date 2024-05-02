@@ -1,0 +1,123 @@
+.notifications-container {
+    border: 0px solid #333;
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 164px;
+    margin-top: 40px;
+    margin-right: 180px;
+    height: fit-content;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.single-notification {
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.notif-div {
+    margin-bottom: 24px;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px;
+}
+
+.accept-btn {
+    width: 120px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: #0a3237;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    margin-right: 8px;
+}
+
+.accept-btn:hover {
+    color: #eee;
+    opacity: 0.75;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.decline-btn {
+    width: 120px;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f0a58c;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+
+.decline-btn:hover {
+    color: #eee;
+    opacity: 0.75;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.decline-btn:disabled {
+    cursor: default;
+    background: gray;
+}
+
+.accept-btn:disabled {
+    cursor: default;
+    background: gray;
+}
+
+
+@media (max-width: 1024px) {
+    
+    .notifications-container {
+        border: 0px solid #333;
+        border-radius: 25px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        margin-top: 40px;
+        margin-right: 80px;
+        height: fit-content;
+        min-height: 200px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .notifications-container {
+        border: 0px solid #333;
+        border-radius: 25px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 32px;
+        margin-top: 40px;
+        margin-right: 32px;
+        height: fit-content;
+        min-height: 200px;
+    }
+}
